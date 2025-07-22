@@ -1,0 +1,26 @@
+{
+  "id": "platforms/index",
+  "title": "Platforms",
+  "description": "A Platform is a container that groups related events under a shared theme or initiative. It helps users organize multiple events and manage associated tasks in one place.",
+  "source": "@site/docs/platforms/index.md",
+  "sourceDirName": "platforms",
+  "slug": "/platforms/",
+  "permalink": "/platforms/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Platforms",
+    "sidebar_label": "Platforms"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Dashboard",
+    "permalink": "/dashboard/"
+  },
+  "next": {
+    "title": "Events",
+    "permalink": "/events/"
+  }
+}

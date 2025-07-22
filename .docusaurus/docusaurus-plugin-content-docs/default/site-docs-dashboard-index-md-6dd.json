@@ -1,0 +1,27 @@
+{
+  "id": "dashboard/index",
+  "title": "Dashboard",
+  "description": "Content coming soon...",
+  "source": "@site/docs/dashboard/index.md",
+  "sourceDirName": "dashboard",
+  "slug": "/dashboard/",
+  "permalink": "/dashboard/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "index",
+    "title": "Dashboard",
+    "sidebar_label": "Dashboard"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/getting-started/"
+  },
+  "next": {
+    "title": "Platforms",
+    "permalink": "/platforms/"
+  }
+}

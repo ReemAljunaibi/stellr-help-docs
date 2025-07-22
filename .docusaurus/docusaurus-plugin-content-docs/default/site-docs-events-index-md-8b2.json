@@ -1,0 +1,26 @@
+{
+  "id": "events/index",
+  "title": "Events",
+  "description": "This is the main hub for managing events in Stellr. You'll find tools like survey builders, email templates, and calendar views.",
+  "source": "@site/docs/events/index.md",
+  "sourceDirName": "events",
+  "slug": "/events/",
+  "permalink": "/events/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Events",
+    "sidebar_label": "Events"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Platforms",
+    "permalink": "/platforms/"
+  },
+  "next": {
+    "title": "Institutions",
+    "permalink": "/institutions/"
+  }
+}

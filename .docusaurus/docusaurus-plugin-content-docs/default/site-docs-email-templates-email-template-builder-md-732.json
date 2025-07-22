@@ -1,0 +1,17 @@
+{
+  "id": "email-templates/email-template-builder",
+  "title": "Email Template Builder",
+  "description": "Learn how to create and send branded email templates from your events module.",
+  "source": "@site/docs/email-templates/email-template-builder.md",
+  "sourceDirName": "email-templates",
+  "slug": "/email-templates/email-template-builder",
+  "permalink": "/email-templates/email-template-builder",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Email Template Builder",
+    "sidebar_label": "Email Templates"
+  }
+}

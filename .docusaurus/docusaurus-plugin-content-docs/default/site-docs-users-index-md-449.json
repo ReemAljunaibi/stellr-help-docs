@@ -1,0 +1,27 @@
+{
+  "id": "users/index",
+  "title": "Users",
+  "description": "Content coming soon...",
+  "source": "@site/docs/users/index.md",
+  "sourceDirName": "users",
+  "slug": "/users/",
+  "permalink": "/users/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "index",
+    "title": "Users",
+    "sidebar_label": "Users"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Email Templates",
+    "permalink": "/email-templates/"
+  },
+  "next": {
+    "title": "Groups",
+    "permalink": "/groups/"
+  }
+}

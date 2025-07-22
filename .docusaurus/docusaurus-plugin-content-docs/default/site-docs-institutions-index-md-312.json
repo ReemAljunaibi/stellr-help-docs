@@ -1,0 +1,26 @@
+{
+  "id": "institutions/index",
+  "title": "Institutions",
+  "description": "The Institutions module gives users a centralized view of all the organizations you're tracking, working with, or engaging. This section includes institution data, individual members, scoring history, and a review process to ensure quality and consistency.",
+  "source": "@site/docs/institutions/index.md",
+  "sourceDirName": "institutions",
+  "slug": "/institutions/",
+  "permalink": "/institutions/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Institutions",
+    "sidebar_label": "Institutions"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Events",
+    "permalink": "/events/"
+  },
+  "next": {
+    "title": "Individuals",
+    "permalink": "/individuals/"
+  }
+}

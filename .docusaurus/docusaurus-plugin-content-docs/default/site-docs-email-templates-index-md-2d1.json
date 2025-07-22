@@ -1,0 +1,27 @@
+{
+  "id": "email-templates/index",
+  "title": "Email Templates",
+  "description": "Content coming soon...",
+  "source": "@site/docs/email-templates/index.md",
+  "sourceDirName": "email-templates",
+  "slug": "/email-templates/",
+  "permalink": "/email-templates/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "index",
+    "title": "Email Templates",
+    "sidebar_label": "Email Templates"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Surveys",
+    "permalink": "/surveys/"
+  },
+  "next": {
+    "title": "Users",
+    "permalink": "/users/"
+  }
+}

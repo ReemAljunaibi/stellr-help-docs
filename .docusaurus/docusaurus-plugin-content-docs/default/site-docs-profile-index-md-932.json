@@ -1,0 +1,26 @@
+{
+  "id": "profile/index",
+  "title": "Profile",
+  "description": "",
+  "source": "@site/docs/profile/index.md",
+  "sourceDirName": "profile",
+  "slug": "/profile/",
+  "permalink": "/profile/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Profile",
+    "sidebar_label": "Profile"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Scoring",
+    "permalink": "/scoring/"
+  },
+  "next": {
+    "title": "Contact",
+    "permalink": "/contact/"
+  }
+}

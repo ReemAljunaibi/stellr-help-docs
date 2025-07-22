@@ -1,0 +1,26 @@
+{
+  "id": "surveys/index",
+  "title": "Surveys",
+  "description": "",
+  "source": "@site/docs/surveys/index.md",
+  "sourceDirName": "surveys",
+  "slug": "/surveys/",
+  "permalink": "/surveys/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Surveys",
+    "sidebar_label": "Surveys"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tasks",
+    "permalink": "/tasks/"
+  },
+  "next": {
+    "title": "Email Templates",
+    "permalink": "/email-templates/"
+  }
+}

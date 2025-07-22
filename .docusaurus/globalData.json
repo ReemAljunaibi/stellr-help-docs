@@ -1,0 +1,112 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/",
+          "mainDocId": "welcome/index",
+          "docs": [
+            {
+              "id": "access-permissions/access-permissions",
+              "path": "/access-permissions/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "contact/index",
+              "path": "/contact/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "dashboard/index",
+              "path": "/dashboard/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "email-templates/email-template-builder",
+              "path": "/email-templates/email-template-builder"
+            },
+            {
+              "id": "email-templates/index",
+              "path": "/email-templates/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "events/index",
+              "path": "/events/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/index",
+              "path": "/getting-started/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "groups/index",
+              "path": "/groups/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "individuals/index",
+              "path": "/individuals/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "institutions/index",
+              "path": "/institutions/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "platforms/index",
+              "path": "/platforms/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "profile/index",
+              "path": "/profile/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "scoring/scoring",
+              "path": "/scoring/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "surveys/index",
+              "path": "/surveys/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tasks/index",
+              "path": "/tasks/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "users/index",
+              "path": "/users/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "welcome/index",
+              "path": "/",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/",
+                "label": "Welcome"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

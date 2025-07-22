@@ -1,0 +1,26 @@
+{
+  "id": "groups/index",
+  "title": "Groups",
+  "description": "",
+  "source": "@site/docs/groups/index.md",
+  "sourceDirName": "groups",
+  "slug": "/groups/",
+  "permalink": "/groups/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Groups",
+    "sidebar_label": "Groups"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Users",
+    "permalink": "/users/"
+  },
+  "next": {
+    "title": "Access & Permissions",
+    "permalink": "/access-permissions/"
+  }
+}

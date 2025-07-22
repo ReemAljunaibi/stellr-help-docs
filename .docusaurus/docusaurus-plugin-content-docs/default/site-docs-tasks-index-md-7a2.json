@@ -1,0 +1,26 @@
+{
+  "id": "tasks/index",
+  "title": "Tasks",
+  "description": "The Tasks module is shared across multiple parts of the Stellr platform — including Platforms, Events, and other future modules.",
+  "source": "@site/docs/tasks/index.md",
+  "sourceDirName": "tasks",
+  "slug": "/tasks/",
+  "permalink": "/tasks/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Tasks",
+    "sidebar_label": "Tasks"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Individuals",
+    "permalink": "/individuals/"
+  },
+  "next": {
+    "title": "Surveys",
+    "permalink": "/surveys/"
+  }
+}

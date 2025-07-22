@@ -1,0 +1,126 @@
+{
+  "/__docusaurus/debug-5ff": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/config-5ba": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/content-a2b": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    },
+    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
+  },
+  "/__docusaurus/debug/globalData-c3c": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/metadata-156": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/registry-88c": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/routes-000": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/-a72": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---aba-d70"
+    }
+  },
+  "/-fac": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---22-d-307"
+  },
+  "/-4fe": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/access-permissions/-518": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---access-permissions-1-d-4-079"
+  },
+  "/contact/-671": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---contact-55-a-150"
+  },
+  "/dashboard/-274": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---dashboard-6-dd-1c4"
+  },
+  "/email-templates/-eeb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---email-templates-2-d-1-190"
+  },
+  "/email-templates/email-template-builder-d99": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---email-templates-email-template-builder-732-981"
+  },
+  "/events/-c1a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---events-8-b-2-767"
+  },
+  "/getting-started/-e2e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---getting-started-54-c-40b"
+  },
+  "/groups/-e72": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---groups-191-fc3"
+  },
+  "/individuals/-d63": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---individuals-cb-6-319"
+  },
+  "/institutions/-36b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---institutions-312-a84"
+  },
+  "/platforms/-dac": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---platforms-221-dd1"
+  },
+  "/profile/-d56": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---profile-932-739"
+  },
+  "/scoring/-48a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---scoring-947-1b1"
+  },
+  "/surveys/-7f1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---surveys-5-f-7-005"
+  },
+  "/tasks/-c00": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---tasks-7-a-2-782"
+  },
+  "/users/-887": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---users-449-04f"
+  },
+  "/-87e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---908-621"
+  }
+}

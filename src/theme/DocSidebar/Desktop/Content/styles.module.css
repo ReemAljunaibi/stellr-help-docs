@@ -1,0 +1,25 @@
+.menu {
+    padding-top: 1rem;
+  }
+  
+  .menuWithAnnouncementBar {
+    margin-top: var(--docusaurus-announcement-bar-height);
+  }
+  
+  .sidebarIcon {
+    width: 18px;
+    height: 18px;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+  }
+
+  .menu__link {
+    border-radius: 6px;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .menu__list-item {
+    padding-right: 8px; /* give room for hover bg */
+  }
+
