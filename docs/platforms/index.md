@@ -45,8 +45,7 @@ A **Platform** is a container that groups related events under a shared theme or
 | **Public** | All users     |
 | **Group**  | Only users in the assigned group(s) |
 
-Platforms support **granular visibility**, allowing you to tailor access per platform. Learn more in the [Roles & Access Levels](#roles--access-levels) section.
-
+Platforms support **granular visibility**, allowing you to tailor access per platform. Learn more in the Roles and Access ... 
 ---
 
 ## 🔄 Events and Platforms
@@ -68,8 +67,8 @@ There is **no direct “Add Event”** from within a platform itself — the lin
 
 ## 🔗 Related Features
 
-- **Tasks Module**: Platforms have their own task list, shared with Events. See [Tasks Section](#tasks-module).
-- **Groups Module**: Used to define access to specific Platforms (and soon, Events, Notes, Institutions). See [Groups Section](#groups-module).
+- **Tasks Module**: Platforms have their own task list, shared with Events. 
+- **Groups Module**: Used to define access to specific Platforms (and soon, Events, Notes, Institutions). 
 
 ---
 

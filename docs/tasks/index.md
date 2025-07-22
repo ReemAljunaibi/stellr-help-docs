@@ -18,11 +18,5 @@ The **Tasks** module is shared across multiple parts of the Stellr platform — 
 
 ---
 
-## 🔗 Related Modules
-
-- For tasks used inside **Events**, [see here →](./events-tasks.md)
-- For tasks linked to **Platforms**, [see here →](./platforms.md)
-
----
 
 📸 Coming soon: Screenshots and short demo video.

@@ -47,7 +47,6 @@ The **Individuals** section allows users to manage contacts affiliated with inst
 - **Admins** can edit or delete any individual entry.
 - **Viewers** can only see contact lists (if permitted).
 
-> _See [Roles & Access Levels](#roles--access-levels) for more._
 
 ---
 
