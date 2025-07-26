@@ -1,7 +1,7 @@
 {
   "id": "getting-started/index",
   "title": "Getting Started",
-  "description": "🚀 Welcome to Stellr",
+  "description": "Stellr User Guide",
   "source": "@site/docs/getting-started/index.md",
   "sourceDirName": "getting-started",
   "slug": "/getting-started/",
@@ -11,6 +11,7 @@
   "tags": [],
   "version": "current",
   "frontMatter": {
+    "id": "index",
     "title": "Getting Started",
     "sidebar_label": "Getting Started"
   },

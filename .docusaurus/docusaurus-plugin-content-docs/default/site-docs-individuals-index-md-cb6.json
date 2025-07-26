@@ -1,7 +1,7 @@
 {
   "id": "individuals/index",
   "title": "Individuals",
-  "description": "The Individuals section allows users to manage contacts affiliated with institutions. You can add team members, stakeholders, or partners and track their relationship to your organization.",
+  "description": "Managing Individuals",
   "source": "@site/docs/individuals/index.md",
   "sourceDirName": "individuals",
   "slug": "/individuals/",

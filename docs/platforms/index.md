@@ -1,81 +1,197 @@
 ---
+id: index
 title: Platforms
 sidebar_label: Platforms
 ---
 
-<img src="/icons/grid.svg" alt="Platform icon" style={{ width: "1.5rem", verticalAlign: "middle", marginRight: "0.5rem" }} />
+import { useColorMode } from '@docusaurus/theme-common';
 
-A **Platform** is a container that groups related events under a shared theme or initiative. It helps users organize multiple events and manage associated tasks in one place.
+<div class="p-6 bg-white rounded-lg shadow-sm space-y-6">
 
-## 🔹 What You Can Do in This Section
+  <h2 class="h2 text-accent-secondary">Understanding Platforms</h2>
 
-| Action               | Description |
-|----------------------|-------------|
-| **Create a Platform** | Add a new platform to group events |
-| **Edit Platform Details** | Update name, description, or access settings |
-| **Manage Tasks**     | View and create tasks linked to the platform (shared with Events module) |
-| **View in Calendar** | Platform tasks appear in the Events calendar |
+  <p class="body text-gray-dark">
+    A <strong>Platform</strong> is a container that helps group related <strong>events</strong> under a shared theme such as a campaign, public initiative, or collaboration.
+  </p>
 
----
+  <p class="body text-gray-dark mt-2">
+    Examples include initiatives like <em>Formula 1</em>, <em>Expo 2020</em>, or <em>Davos</em>. Platforms help unify efforts and visualize cross-departmental work.
+  </p>
 
-## 🛠️ How to Create a Platform
+  <div style={{ textAlign: 'center' }}>
+    <img
+      src="/img/platform-tag-example.png"
+      alt="Platform tag with example initiatives"
+      style={{
+        borderRadius: '0.5rem',
+        boxShadow: '0 0 10px rgba(0,0,0,0.05)',
+        maxWidth: '100%',
+        marginTop: '1rem'
+      }}
+    />
+  </div>
+  <!-- 📸 Screenshot: /img/platform-tag-example.png -->
 
-1. Go to the **Platforms** tab in the sidebar.
-2. Click **“+ Add New Platform”**.
-3. Fill in all required fields:
-   - **Name**
-   - **Description**
-   - **Access Level** (choose one):
-     - **Private** – Only you can view it
-     - **Public** – All users can view
-     - **Group-based** – Visible only to selected groups
-4. Click **“Save”** to draft the platform.
-5. An **Admin** must approve the platform for it to appear under “Approved”.
+  ### 1. What You Can Do
 
-📹 Video: How to Create a Platform  
-🖼️ Screenshot: Platform creation form
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
 
----
+    <div class="flex items-center space-x-3">
+      <img src={`/icons/platforms-${useColorMode().colorMode}.svg`} class="inline-icon" alt="Platform icon" />
+      <span class="body"><strong>Create a Platform</strong>: Group events under a shared purpose or theme.</span>
+    </div>
 
-## 🔐 Access Levels
+    <div class="flex items-center space-x-3">
+      <img src={`/icons/edit-${useColorMode().colorMode}.svg`} class="inline-icon" alt="Edit icon" />
+      <span class="body"><strong>Edit Platform</strong>: Update name, description, or access level.</span>
+    </div>
 
-| Option     | Who Can View |
-|------------|--------------|
-| **Private**| Only the creator |
-| **Public** | All users     |
-| **Group**  | Only users in the assigned group(s) |
+    <div class="flex items-center space-x-3">
+      <img src={`/icons/approve-${useColorMode().colorMode}.svg`} class="inline-icon" alt="Approve icon" />
+      <span class="body"><strong>Approve Drafts</strong>: Admins can review and approve new platform submissions.</span>
+    </div>
 
-Platforms support **granular visibility**, allowing you to tailor access per platform. Learn more in the Roles and Access ... 
----
+    <div class="flex items-center space-x-3">
+      <img src={`/icons/tasks-${useColorMode().colorMode}.svg`} class="inline-icon" alt="Tasks icon" />
+      <span class="body"><strong>Manage Tasks</strong>: Assign and track tasks linked to the platform.</span>
+    </div>
 
-## 🔄 Events and Platforms
+    <div class="flex items-center space-x-3">
+      <img src={`/icons/calendar-${useColorMode().colorMode}.svg`} class="inline-icon" alt="Calendar icon" />
+      <span class="body"><strong>View in Calendar</strong>: Tasks linked to a platform appear in the dashboard calendar.</span>
+    </div>
 
-Events are **linked to a Platform** using a dropdown during event creation.  
-There is **no direct “Add Event”** from within a platform itself — the linkage is one-way (from the Event).
+  </div>
 
----
+  ### 2. Creating a Platform
 
-## 🧑‍💼 Permissions & Workflow
+  <ol class="list-decimal pl-6 body">
+    <li>Go to the <strong>Platforms</strong> section from the sidebar.</li>
+    <li>Click <strong>+ Add New Platform</strong>.</li>
+    <li>
+      Fill in the platform form:
+      <div class="pl-4">
+        <ul class="list-disc">
+          <li><strong>Name</strong> *</li>
+          <li><strong>Description</strong> *</li>
+          <li><strong>Tags</strong></li>
+          <li><strong>Map Pin</strong></li>
+          <li><strong>Access Level</strong>: Private / Public / Group-based</li>
+        </ul>
+      </div>
+    </li>
+    <li>Click <strong>Save</strong>. The platform will appear in the Drafts tab.</li>
+    <li>Only Admins can approve and publish the platform to make it visible across the organization.</li>
+  </ol>
 
-| Role      | Create | Edit | Approve | View |
-|-----------|--------|------|---------|------|
-| **Admin** | ✅     | ✅   | ✅      | ✅   |
-| **Member**| ✅     | ✅ (own) | ❌   | Based on Access |
-| **Viewer**| ❌     | ❌   | ❌      | Based on Access |
+  <div class="mt-4 text-sm bg-gray-light p-4 rounded text-gray-dark">
+    🔐 Want to learn how Access Levels work? See the <a href="/docs/access-permissions/access-permissions" class="text-accent-secondary underline">Access & Permissions</a> page.
+  </div>
 
----
+  <div style={{ textAlign: 'center' }}>
+    <img
+      src="/img/platform-form-empty.png"
+      alt="Empty platform creation form"
+      style={{
+        borderRadius: '0.5rem',
+        boxShadow: '0 0 10px rgba(0,0,0,0.05)',
+        maxWidth: '100%',
+        marginTop: '1rem'
+      }}
+    />
+  </div>
+  <!-- 📸 Screenshot: /img/platform-form-empty.png -->
 
-## 🔗 Related Features
+  <div style={{ textAlign: 'center' }}>
+    <img
+      src="/img/platform-form-filled.png"
+      alt="Filled platform creation form"
+      style={{
+        borderRadius: '0.5rem',
+        boxShadow: '0 0 10px rgba(0,0,0,0.05)',
+        maxWidth: '100%',
+        marginTop: '1rem'
+      }}
+    />
+  </div>
+  <!-- 📸 Screenshot: /img/platform-form-filled.png -->
 
-- **Tasks Module**: Platforms have their own task list, shared with Events. 
-- **Groups Module**: Used to define access to specific Platforms (and soon, Events, Notes, Institutions). 
+  ### 3. Drafts vs Approved Platforms
 
----
+  <p class="body">
+    Platforms begin as drafts. Only Admins can move them to the <strong>Approved</strong> tab to make them live.
+  </p>
 
-## 📹 Suggested Videos to Record
+  <div style={{ textAlign: 'center' }}>
+    <img
+      src="/img/platform-tabbar-drafts-approved.png"
+      alt="Drafts and approved platform tabs"
+      style={{
+        borderRadius: '0.5rem',
+        boxShadow: '0 0 10px rgba(0,0,0,0.05)',
+        maxWidth: '100%',
+        marginTop: '1rem'
+      }}
+    />
+  </div>
+  <!-- 📸 Screenshot: /img/platform-tabbar-drafts-approved.png -->
 
-| Topic                         | Use in Guide Section |
-|-------------------------------|----------------------|
-| How to create a platform      | Platform creation    |
-| How to manage platform tasks  | Refer to Tasks Module |
-| How access levels work        | Access/Permissions   |
+  ### 4. Editing a Platform
+
+  <p class="body">
+    To edit a platform, click the <strong>✏️ pen icon</strong> next to its name. Once you've made changes, click <strong>✔ Save</strong> or <strong>✖ Cancel</strong>.
+  </p>
+
+  <div style={{ textAlign: 'center' }}>
+    <img
+      src="/img/platform-edit-mode.png"
+      alt="Editing a platform"
+      style={{
+        borderRadius: '0.5rem',
+        boxShadow: '0 0 10px rgba(0,0,0,0.05)',
+        maxWidth: '100%',
+        marginTop: '1rem'
+      }}
+    />
+  </div>
+  <!-- 📸 Screenshot: /img/platform-edit-mode.png -->
+
+  ### 5. Platform Overview Page
+
+  <p class="body">
+    Once approved, each platform has its own page showing:
+  </p>
+
+  <ul class="list-disc pl-6 body">
+    <li><strong>Overview:</strong> Platform name, description, tags, and map view</li>
+    <li><strong>Associated Events:</strong> Events linked during creation</li>
+    <li><strong>Tasks:</strong> Kanban board showing all related tasks</li>
+  </ul>
+
+  <div style={{ textAlign: 'center' }}>
+    <img
+      src="/img/platform-overview-page.png"
+      alt="Platform overview page"
+      style={{
+        borderRadius: '0.5rem',
+        boxShadow: '0 0 10px rgba(0,0,0,0.05)',
+        maxWidth: '100%',
+        marginTop: '1rem'
+      }}
+    />
+  </div>
+  <!-- 📸 Screenshot: /img/platform-overview-page.png -->
+
+  <div class="mt-4 text-sm bg-gray-light p-4 rounded text-gray-dark">
+    📌 Tasks can be updated directly from this page. For more info, visit the <a href="/docs/tasks/index" class="text-accent-secondary underline">Tasks Section</a>.
+  </div>
+
+  ### 6. Related Features
+
+  <ul class="list-disc pl-6 body">
+    <li><strong>Tasks Module</strong>: Manage platform tasks across views.</li>
+    <li><strong>Groups</strong>: Used to control who can access a platform.</li>
+    <li><strong>Access Permissions</strong>: Roles and approval flows explained in full in the Access & Permissions section.</li>
+  </ul>
+
+</div>

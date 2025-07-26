@@ -1,7 +1,7 @@
 {
   "id": "dashboard/index",
   "title": "Dashboard",
-  "description": "Content coming soon...",
+  "description": "Navigating the Dashboard and Sidebar",
   "source": "@site/docs/dashboard/index.md",
   "sourceDirName": "dashboard",
   "slug": "/dashboard/",

@@ -1,7 +1,7 @@
 {
   "id": "scoring/scoring",
   "title": "Scoring",
-  "description": "Content coming soon...",
+  "description": "Engagement Scoring",
   "source": "@site/docs/scoring/index.md",
   "sourceDirName": "scoring",
   "slug": "/scoring/",

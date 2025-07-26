@@ -212,6 +212,14 @@ html[data-theme='dark'] .card:hover {
 html[data-theme='dark'] .card-icon {
   filter: invert(1) brightness(1.2);
 }
+
+.inline-icon {
+  width: 1rem;
+  height: 1rem;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+  display: inline-block;
+}
 /* ========== FOOTER ========== */
 
 .footer {
@@ -245,3 +253,5 @@ html[data-theme='dark'] .footer {
   margin-top: 0.25rem;
   font-weight: 300;
 }
+
+
