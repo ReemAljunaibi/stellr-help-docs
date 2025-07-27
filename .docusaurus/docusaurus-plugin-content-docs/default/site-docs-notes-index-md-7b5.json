@@ -1,0 +1,27 @@
+{
+  "id": "notes/index",
+  "title": "Notes",
+  "description": "Using Internal Notes",
+  "source": "@site/docs/notes/index.md",
+  "sourceDirName": "notes",
+  "slug": "/notes/",
+  "permalink": "/notes/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "index",
+    "title": "Notes",
+    "sidebar_label": "Notes"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Scoring",
+    "permalink": "/scoring/"
+  },
+  "next": {
+    "title": "Profile",
+    "permalink": "/profile/"
+  }
+}

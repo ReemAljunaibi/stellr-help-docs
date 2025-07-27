@@ -1,7 +1,7 @@
 {
   "id": "profile/index",
   "title": "Profile",
-  "description": "",
+  "description": "Your Profile",
   "source": "@site/docs/profile/index.md",
   "sourceDirName": "profile",
   "slug": "/profile/",
@@ -11,13 +11,14 @@
   "tags": [],
   "version": "current",
   "frontMatter": {
+    "id": "index",
     "title": "Profile",
     "sidebar_label": "Profile"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Scoring",
-    "permalink": "/scoring/"
+    "title": "Notes",
+    "permalink": "/notes/"
   },
   "next": {
     "title": "Contact",

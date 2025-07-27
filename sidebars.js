@@ -87,6 +87,12 @@ const sidebars = {
     },
     {
       type: 'doc',
+      id: 'notes/index',
+      label: 'Notes',
+      customProps: { icon: 'notes' },
+    },
+    {
+      type: 'doc',
       id: 'profile/index',
       label: 'Profile',
       customProps: { icon: 'profile' },

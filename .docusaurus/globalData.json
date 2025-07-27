@@ -60,6 +60,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "notes/index",
+              "path": "/notes/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "platforms/index",
               "path": "/platforms/",
               "sidebar": "tutorialSidebar"
