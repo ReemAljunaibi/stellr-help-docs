@@ -1,7 +1,7 @@
 {
   "id": "tasks/index",
   "title": "Tasks",
-  "description": "The Tasks module is shared across multiple parts of the Stellr platform — including Platforms, Events, and other future modules.",
+  "description": "Managing Tasks Across Stellr",
   "source": "@site/docs/tasks/index.md",
   "sourceDirName": "tasks",
   "slug": "/tasks/",
@@ -11,6 +11,7 @@
   "tags": [],
   "version": "current",
   "frontMatter": {
+    "id": "index",
     "title": "Tasks",
     "sidebar_label": "Tasks"
   },

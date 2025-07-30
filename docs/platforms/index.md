@@ -24,7 +24,6 @@ import { useColorMode } from '@docusaurus/theme-common';
       alt="Platform tag with example initiatives"
       style={{
         borderRadius: '0.5rem',
-        boxShadow: '0 0 10px rgba(0,0,0,0.05)',
         maxWidth: '100%',
         marginTop: '1rem'
       }}
@@ -34,34 +33,34 @@ import { useColorMode } from '@docusaurus/theme-common';
 
   ### 1. What You Can Do
 
-  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
 
-    <div class="flex items-center space-x-3">
-      <img src={`/icons/platforms-${useColorMode().colorMode}.svg`} class="inline-icon" alt="Platform icon" />
-      <span class="body"><strong>Create a Platform</strong>: Group events under a shared purpose or theme.</span>
-    </div>
-
-    <div class="flex items-center space-x-3">
-      <img src={`/icons/edit-${useColorMode().colorMode}.svg`} class="inline-icon" alt="Edit icon" />
-      <span class="body"><strong>Edit Platform</strong>: Update name, description, or access level.</span>
-    </div>
-
-    <div class="flex items-center space-x-3">
-      <img src={`/icons/approve-${useColorMode().colorMode}.svg`} class="inline-icon" alt="Approve icon" />
-      <span class="body"><strong>Approve Drafts</strong>: Admins can review and approve new platform submissions.</span>
-    </div>
-
-    <div class="flex items-center space-x-3">
-      <img src={`/icons/tasks-${useColorMode().colorMode}.svg`} class="inline-icon" alt="Tasks icon" />
-      <span class="body"><strong>Manage Tasks</strong>: Assign and track tasks linked to the platform.</span>
-    </div>
-
-    <div class="flex items-center space-x-3">
-      <img src={`/icons/calendar-${useColorMode().colorMode}.svg`} class="inline-icon" alt="Calendar icon" />
-      <span class="body"><strong>View in Calendar</strong>: Tasks linked to a platform appear in the dashboard calendar.</span>
-    </div>
-
+  <div class="flex items-center space-x-3">
+    <img src={`/icons/platforms-${useColorMode().colorMode}.svg`} class="inline-icon" alt="Platform icon" />
+    <span class="body"><strong>Create a Platform</strong>: Group events under a shared purpose or theme.</span>
   </div>
+
+  <div class="flex items-center space-x-3">
+    <img src={`/icons/edit-${useColorMode().colorMode}.svg`} class="inline-icon" alt="Edit icon" />
+    <span class="body"><strong>Edit Platform</strong>: Update name, description, or access level.</span>
+  </div>
+
+  <div class="flex items-center space-x-3">
+    <img src={`/icons/approve-${useColorMode().colorMode}.svg`} class="inline-icon" alt="Approve icon" />
+    <span class="body"><strong>Approve Drafts</strong>: Admins can review and approve new platform submissions.</span>
+  </div>
+
+  <div class="flex items-center space-x-3">
+    <img src={`/icons/tasks-${useColorMode().colorMode}.svg`} class="inline-icon" alt="Tasks icon" />
+    <span class="body"><strong>Manage Tasks</strong>: Assign and track tasks linked to the platform.</span>
+  </div>
+
+  <div class="flex items-center space-x-3">
+    <img src={`/icons/calendar-${useColorMode().colorMode}.svg`} class="inline-icon" alt="Calendar icon" />
+    <span class="body"><strong>View in Calendar</strong>: Tasks linked to a platform appear in the dashboard calendar.</span>
+  </div>
+
+</div>
 
   ### 2. Creating a Platform
 

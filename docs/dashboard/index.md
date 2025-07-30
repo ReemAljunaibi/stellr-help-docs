@@ -24,53 +24,50 @@ import { useColorMode } from '@docusaurus/theme-common';
 
     <div class="flex items-center space-x-3">
       <img src={`/icons/events-${useColorMode().colorMode}.svg`} class="inline-icon" alt="Events icon" />
-      <span class="body"><strong>Events</strong>: View, manage, and attend organization-wide events.</span>
+      <span class="body"><a href="/events" class="text-accent-secondary underline"><strong>Events</strong></a>: View, manage, and attend organization-wide events.</span>
     </div>
 
     <div class="flex items-center space-x-3">
       <img src={`/icons/institutions-${useColorMode().colorMode}.svg`} class="inline-icon" alt="Institutions icon" />
-      <span class="body"><strong>Institutions</strong>: View company profiles, relationship scores, and all recent engagements.</span>
+      <span class="body"><a href="/institutions" class="text-accent-secondary underline"><strong>Institutions</strong></a>: View company profiles, relationship scores, and all recent engagements.</span>
     </div>
 
     <div class="flex items-center space-x-3">
       <img src={`/icons/individuals-${useColorMode().colorMode}.svg`} class="inline-icon" alt="Individuals icon" />
-      <span class="body"><strong>Individuals</strong>: View partner profiles, and quickly access internal notes and recent engagement events.</span>
+      <span class="body"><a href="/individuals" class="text-accent-secondary underline"><strong>Individuals</strong></a>: View partner profiles, and quickly access internal notes and recent engagement events.</span>
     </div>
 
     <div class="flex items-center space-x-3">
       <img src={`/icons/tasks-${useColorMode().colorMode}.svg`} class="inline-icon" alt="Tasks icon" />
-      <span class="body"><strong>Tasks</strong>: View tasks assigned to you, along with deadlines and linked platforms or events.</span>
+      <span class="body"><a href="/tasks" class="text-accent-secondary underline"><strong>Tasks</strong></a>: View tasks assigned to you, along with deadlines and linked platforms or events.</span>
     </div>
 
     <div class="flex items-center space-x-3">
       <img src={`/icons/groups-${useColorMode().colorMode}.svg`} class="inline-icon" alt="Groups icon" />
-      <span class="body"><strong>Groups</strong>: View and manage shared access across internal or external collaborators.</span>
+      <span class="body"><a href="/groups" class="text-accent-secondary underline"><strong>Groups</strong></a>: View and manage shared access across internal or external collaborators.</span>
     </div>
 
     <div class="flex items-center space-x-3">
       <img src={`/icons/users-${useColorMode().colorMode}.svg`} class="inline-icon" alt="Users icon" />
-      <span class="body"><strong>Users</strong>: Manage user accounts, roles, and permissions.</span>
+      <span class="body"><a href="/users" class="text-accent-secondary underline"><strong>Users</strong></a>: Manage user accounts, roles, and permissions.</span>
     </div>
 
     <div class="flex items-center space-x-3">
       <img src={`/icons/security-${useColorMode().colorMode}.svg`} class="inline-icon" alt="Security icon" />
-      <span class="body"><strong>Access & Permissions</strong>: Control access at user level by defining roles (Viewer, Member, Admin).</span>
+      <span class="body"><a href="/access-permissions" class="text-accent-secondary underline"><strong>Access & Permissions</strong></a>: Control access at user level by defining roles (Viewer, Member, Admin).</span>
     </div>
   </div>
 
-  <div style={{ textAlign: 'center' }}>
-    <img
-      src="/img/dashboard-sidebar.png"
-      alt="Dashboard Sidebar Overview"
-      style={{
-        borderRadius: '0.5rem',
-        boxShadow: '0 0 10px rgba(0,0,0,0.05)',
-        maxWidth: '100%',
-        marginTop: '1rem'
-      }}
-    />
-  </div>
-  <!-- 📸 Screenshot: Sidebar with modules and hover labels -->
+<div style={{ textAlign: 'center', marginTop: '2rem', marginBottom: '2rem' }}>
+  <img
+    src="/img/dashboard-sidebar.png"
+    alt="Dashboard Sidebar Overview"
+    style={{
+      borderRadius: '0.5rem',
+      maxWidth: '100%'
+    }}
+  />
+</div>
 
   ### 2. Calendar Overview
 
@@ -103,7 +100,7 @@ import { useColorMode } from '@docusaurus/theme-common';
   ### 3. Recent Institutions
 
   <p class="body">
-    This section shows institutions you've recently interacted with. The cards display each organization's name, score, and engagement trend. Clicking opens the full institution profile.
+    This section shows institutions you've recently interacted with. The cards display each organization's name, score, and engagement trend. Clicking opens the full <a href="/institutions" class="text-accent-secondary underline">Institution Profile</a>.
   </p>
 
   <div style={{ textAlign: 'center' }}>
@@ -122,7 +119,7 @@ import { useColorMode } from '@docusaurus/theme-common';
   ### 4. Recent Individuals
 
   <p class="body">
-    Shows a list of people you've engaged with recently. You’ll see their name, title, and associated institution. Clicking opens their individual profile.
+    Shows a list of people you've engaged with recently. You’ll see their name, title, and associated institution. Clicking opens their <a href="/individuals" class="text-accent-secondary underline">individual profile</a>.
   </p>
 
   <div style={{ textAlign: 'center' }}>
@@ -141,7 +138,7 @@ import { useColorMode } from '@docusaurus/theme-common';
   ### 5. My Tasks
 
   <p class="body">
-    Displays tasks assigned to you, grouped by related platform or event. You can click each task to jump directly to the parent section.
+    Displays tasks assigned to you, grouped by related platform or event. You can click each task to jump directly to the <a href="/tasks" class="text-accent-secondary underline">task’s parent section</a>.
   </p>
 
   <div class="bg-gray-light p-4 rounded text-sm text-gray-dark mt-2">
@@ -164,7 +161,7 @@ import { useColorMode } from '@docusaurus/theme-common';
   ### 6. Upcoming Events
 
   <p class="body">
-    Shows a quick summary of your upcoming events, including the platform they belong to. Clicking takes you to the event detail page.
+    Shows a quick summary of your upcoming events, including the platform they belong to. Clicking takes you to the <a href="/events" class="text-accent-secondary underline">event detail page</a>.
   </p>
 
   <div style={{ textAlign: 'center' }}>
@@ -183,7 +180,7 @@ import { useColorMode } from '@docusaurus/theme-common';
   ### 7. Profile and Sign Out
 
   <p class="body">
-    At the bottom-left of the sidebar, you’ll see your avatar. Click to edit your profile or sign out. Profile customization includes uploading your photo, name, and role.
+    At the bottom-left of the sidebar, you’ll see your avatar. Click to <a href="/profile" class="text-accent-secondary underline">edit your profile</a> or sign out. Profile customization includes uploading your photo, name, and role.
   </p>
 
   <div style={{ textAlign: 'center' }}>

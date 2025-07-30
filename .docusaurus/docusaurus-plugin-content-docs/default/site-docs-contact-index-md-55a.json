@@ -13,10 +13,5 @@
   "frontMatter": {
     "title": "Contact",
     "sidebar_label": "Contact"
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Profile",
-    "permalink": "/profile/"
   }
 }

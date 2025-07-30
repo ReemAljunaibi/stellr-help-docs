@@ -16,18 +16,9 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "contact/index",
-              "path": "/contact/",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "dashboard/index",
               "path": "/dashboard/",
               "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "email-templates/email-template-builder",
-              "path": "/email-templates/email-template-builder"
             },
             {
               "id": "email-templates/index",

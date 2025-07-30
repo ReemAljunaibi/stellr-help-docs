@@ -19,7 +19,7 @@ import { useColorMode } from '@docusaurus/theme-common';
   <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
 
     <div class="flex items-center space-x-3">
-      <img src={`/icons/institutions-${useColorMode().colorMode}.svg`} class="inline-icon" alt="Institution icon" />
+      <img src={`/icons/institutions-${useColorMode().colorMode}.svg`} class="inline-icon" alt="Institutions icon" />
       <span class="body"><strong>View Institutions</strong>: Browse all approved or draft organizations in one place.</span>
     </div>
 
@@ -29,12 +29,12 @@ import { useColorMode } from '@docusaurus/theme-common';
     </div>
 
     <div class="flex items-center space-x-3">
-      <img src={`/icons/edit-${useColorMode().colorMode}.svg`} class="inline-icon" alt="Edit icon" />
+      <img src={`/icons/edit-${useColorMode().colorMode}.svg`} class="inline-icon" alt="Edit/Delete icon" />
       <span class="body"><strong>Edit / Delete</strong>: Modify or remove records through the 3-dot menu.</span>
     </div>
 
     <div class="flex items-center space-x-3">
-      <img src={`/icons/groups-${useColorMode().colorMode}.svg`} class="inline-icon" alt="Filter icon" />
+      <img src={`/icons/filter-${useColorMode().colorMode}.svg`} class="inline-icon" alt="Filter icon" />
       <span class="body"><strong>Filter</strong>: Refine by sector, stage, engagement score, or assigned individuals.</span>
     </div>
 
@@ -45,7 +45,7 @@ import { useColorMode } from '@docusaurus/theme-common';
 
     <div class="flex items-center space-x-3">
       <img src={`/icons/scoring-${useColorMode().colorMode}.svg`} class="inline-icon" alt="Scoring icon" />
-      <span class="body"><strong>Score Relationships</strong>: Evaluate institutions using a stage-based scorecard.</span>
+      <span class="body"><strong>Score Relationships</strong>: Evaluate institutions using a stage-based scorecard. <a href="/scoring" class="text-accent-secondary underline">Learn more</a>.</span>
     </div>
 
   </div>
@@ -69,12 +69,10 @@ import { useColorMode } from '@docusaurus/theme-common';
     />
   </div>
 
-  <!-- 📸 Screenshot: /img/institution-status-tabs.png -->
-
   ### 3. Adding an Institution
 
   <ol class="list-decimal pl-6 body">
-    <li>Navigate to <strong>Institutions</strong> from the sidebar.</li>
+    <li>Navigate to the <a href="/institutions" class="text-accent-secondary underline">Institutions</a> section from the sidebar.</li>
     <li>Click <strong>+ Add New Institution</strong>.</li>
     <li>Fill in all required fields <code>*</code>:</li>
   </ol>
@@ -103,18 +101,17 @@ import { useColorMode } from '@docusaurus/theme-common';
     />
   </div>
 
-  <!-- 📸 Screenshot: /img/institution-create-form.png -->
   <!-- 📹 Video: /videos/institution.mov -->
 
- ### 4. Engagement Score
+  ### 4. Engagement Score
 
-<p class="body">
-  Institutions progress through various stages of engagement such as Introduction, Qualification, Collaboration, and Evolution. Each stage has its own scoring criteria to evaluate relationship strength and relevance.
-</p>
+  <p class="body">
+    Institutions progress through various stages of engagement such as Introduction, Qualification, Collaboration, and Evolution. Each stage has its own scoring criteria to evaluate relationship strength and relevance.
+  </p>
 
-<div class="mt-4 text-sm bg-gray-light p-4 rounded text-gray-dark">
-  🧠 Learn how scoring works for each stage in the <a href="/docs/scoring/scoring" class="text-accent-secondary underline">Scoring</a> section.
-</div>
+  <div class="mt-4 text-sm bg-gray-light p-4 rounded text-gray-dark">
+    🧠 Learn how scoring works for each stage in the <a href="/scoring" class="text-accent-secondary underline">Scoring</a> section.
+  </div>
 
   ### 5. Institution Detail View
 
@@ -125,7 +122,7 @@ import { useColorMode } from '@docusaurus/theme-common';
   <ul class="list-disc pl-6 body">
     <li><strong>Overview:</strong> Name, location, sector, size, access, tags</li>
     <li><strong>Score History:</strong> Engagement trends visualized</li>
-    <li><strong>Individuals:</strong> Linked collaborators or representatives</li>
+    <li><strong><a href="/individuals" class="text-accent-secondary underline">Individuals</a>:</strong> Linked collaborators or representatives</li>
     <li><strong>Engagements:</strong> Timeline of activity or events</li>
   </ul>
 
@@ -137,14 +134,12 @@ import { useColorMode } from '@docusaurus/theme-common';
     />
   </div>
 
-  <!-- 📸 Screenshot: /img/institution-profile-overview.png -->
-
   ### 6. Related Features
 
   <ul class="list-disc pl-6 body">
-    <li><strong>Individuals:</strong> Connected to their institution in the Individuals module.</li>
-    <li><strong>Tasks:</strong> Actions related to engagement, scoring, or follow-ups.</li>
-    <li><strong>Groups:</strong> Visibility and access management via Group settings.</li>
+    <li><strong><a href="/individuals" class="text-accent-secondary underline">Individuals</a>:</strong> Connected to their institution.</li>
+    <li><strong><a href="/tasks" class="text-accent-secondary underline">Tasks</a>:</strong> Actions related to engagement, scoring, or follow-ups.</li>
+    <li><strong><a href="/groups" class="text-accent-secondary underline">Groups</a>:</strong> Visibility and access management via Group settings.</li>
   </ul>
 
 </div>

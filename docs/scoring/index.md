@@ -11,7 +11,7 @@ import { useColorMode } from '@docusaurus/theme-common';
   <h2 class="h2 text-accent-secondary">Engagement Scoring</h2>
 
   <p class="body text-gray-dark">
-    Scoring helps track the quality of engagement with institutions across various stages. Each stage has a customized scorecard designed to evaluate alignment, relevance, and strategic fit.
+    Scoring helps track the quality of engagement with <a href="/institutions" class="text-accent-secondary underline">institutions</a> across various stages. Each stage has a customized scorecard designed to evaluate alignment, relevance, and strategic fit.
   </p>
 
   ### 1. Engagement Stages
@@ -76,7 +76,7 @@ import { useColorMode } from '@docusaurus/theme-common';
   ### 3. Scoring Method
 
   <p class="body">
-    Each question is scored on a scale of <strong>1 to 5</strong>. These scores feed into an institution’s overall engagement profile and are visualized under the “Score History” tab in the Institution profile.
+    Each question is scored on a scale of <strong>1 to 5</strong>. These scores feed into an institution’s overall engagement profile and are visualized in the <strong>Score History</strong> tab under the <a href="/institutions" class="text-accent-secondary underline">Institution profile</a>.
   </p>
 
   <div style={{ textAlign: 'center' }}>
@@ -97,9 +97,9 @@ import { useColorMode } from '@docusaurus/theme-common';
   ### 4. Who Can Score?
 
   <ul class="list-disc pl-6 body">
-    <li><strong>Members:</strong> Can score institutions they’re assigned to.</li>
-    <li><strong>Admins:</strong> Can score all institutions and review team input.</li>
-    <li><strong>Viewers:</strong> Can view submitted scores, but not submit.</li>
+    <li><strong>Admins:</strong> Can score all institutions and review input.</li>
+    <li><strong>Members:</strong> Can score institutions they are assigned to.</li>
+    <li><strong>Viewers:</strong> Can only view submitted scores.</li>
   </ul>
 
 </div>

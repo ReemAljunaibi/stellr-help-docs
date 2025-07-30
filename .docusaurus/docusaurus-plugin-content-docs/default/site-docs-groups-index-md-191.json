@@ -1,7 +1,7 @@
 {
   "id": "groups/index",
   "title": "Groups",
-  "description": "",
+  "description": "Managing Groups",
   "source": "@site/docs/groups/index.md",
   "sourceDirName": "groups",
   "slug": "/groups/",
@@ -11,6 +11,7 @@
   "tags": [],
   "version": "current",
   "frontMatter": {
+    "id": "index",
     "title": "Groups",
     "sidebar_label": "Groups"
   },

@@ -98,9 +98,9 @@ const sidebars = {
       customProps: { icon: 'profile' },
     },
     {
-      type: 'doc',
-      id: 'contact/index',
+      type: 'link',
       label: 'Contact',
+      href: 'mailto:support@stellr.ae',
       customProps: { icon: 'contact' },
     },
   ],

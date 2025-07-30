@@ -11,7 +11,7 @@ import { useColorMode } from '@docusaurus/theme-common';
   <h2 class="h2 text-accent-secondary">Using Internal Notes</h2>
 
   <p class="body text-gray-dark">
-    Internal notes are a collaborative space to document your interactions with individuals. Notes help you retain insights, track decisions, and share updates with team members.
+    Internal notes are a collaborative space to document your interactions with <a href="/individuals" class="text-accent-secondary underline">individuals</a>. Notes help you retain insights, track decisions, and share updates with team members.
   </p>
 
   ### 1. How Notes Work
@@ -19,7 +19,7 @@ import { useColorMode } from '@docusaurus/theme-common';
   <ul class="list-disc pl-6 body">
     <li>Each individual profile has a notes section at the bottom</li>
     <li>Notes are displayed in reverse chronological order</li>
-    <li>Each note is tagged with the user and time</li>
+    <li>Each note is tagged with the user and timestamp</li>
   </ul>
 
   <div style={{ textAlign: 'center' }}>
@@ -38,7 +38,7 @@ import { useColorMode } from '@docusaurus/theme-common';
   ### 2. Group Visibility with <code>@</code>
 
   <p class="body">
-    Notes can be shared with specific <strong>Groups</strong> using <code>@group</code> mentions.
+    Notes can be shared with specific <a href="/groups" class="text-accent-secondary underline">Groups</a> using <code>@group</code> mentions.
   </p>
 
   <ul class="list-disc pl-6 body">
@@ -47,7 +47,7 @@ import { useColorMode } from '@docusaurus/theme-common';
   </ul>
 
   <div class="mt-4 text-sm bg-gray-light p-4 rounded text-gray-dark">
-    👥 Learn more about how to create and manage groups in the <a href="/docs/groups/index" class="text-accent-secondary underline">Groups</a> section.
+    👥 Learn more about how to manage access in the <a href="/access-permissions" class="text-accent-secondary underline">Access & Permissions</a> section.
   </div>
 
   ### 3. Editing & Deleting Notes
@@ -74,7 +74,5 @@ import { useColorMode } from '@docusaurus/theme-common';
       }}
     />
   </div>
-
-
 
 </div>

@@ -1,7 +1,7 @@
 {
   "id": "surveys/index",
   "title": "Surveys",
-  "description": "",
+  "description": "Creating Surveys",
   "source": "@site/docs/surveys/index.md",
   "sourceDirName": "surveys",
   "slug": "/surveys/",
@@ -11,6 +11,7 @@
   "tags": [],
   "version": "current",
   "frontMatter": {
+    "id": "index",
     "title": "Surveys",
     "sidebar_label": "Surveys"
   },

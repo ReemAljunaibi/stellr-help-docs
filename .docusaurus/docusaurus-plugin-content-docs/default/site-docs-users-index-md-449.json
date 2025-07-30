@@ -1,7 +1,7 @@
 {
   "id": "users/index",
   "title": "Users",
-  "description": "Content coming soon...",
+  "description": "Managing Users",
   "source": "@site/docs/users/index.md",
   "sourceDirName": "users",
   "slug": "/users/",
