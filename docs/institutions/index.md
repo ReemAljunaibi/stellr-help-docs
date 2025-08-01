@@ -5,6 +5,8 @@ sidebar_label: Institutions
 ---
 
 import { useColorMode } from '@docusaurus/theme-common';
+import MoreIcon from '@site/static/icons/more-light.svg';
+import ApproveIcon from '@site/static/icons/approve-light.svg';
 
 <div class="p-6 bg-white rounded-lg shadow-sm space-y-6">
 
@@ -50,24 +52,39 @@ import { useColorMode } from '@docusaurus/theme-common';
 
   </div>
 
-  ### 2. Drafts vs Approved
 
-  <p class="body">
-    Institutions can either be:
-  </p>
+### 2. Drafts vs Approved
 
-  <ul class="list-disc pl-6 body">
-    <li><strong>Drafts:</strong> Pending Admin review and approval</li>
-    <li><strong>Approved:</strong> Published and visible to all users</li>
-  </ul>
+<div style={{ textAlign: 'center' }}>
+  <img
+    src="/img/institution-status-tabs.png"
+    alt="Drafts and Approved Tabs"
+    style={{
+      borderRadius: '0.5rem',
+      boxShadow: '0 0 10px rgba(0,0,0,0.05)',
+      maxWidth: '100%',
+      marginTop: '1rem'
+    }}
+  />
+</div>
 
-  <div style={{ textAlign: 'center' }}>
-    <img
-      src="/img/institution-status-tabs.png"
-      alt="Draft vs Approved Tabs"
-      style={{ borderRadius: '0.5rem', boxShadow: '0 0 10px rgba(0,0,0,0.05)', maxWidth: '100%', marginTop: '1rem' }}
-    />
-  </div>
+<p class="body mt-4">
+  Admin users can toggle between <strong>Drafts</strong> and <strong>Approved</strong> tabs at the top of the Institutions page. New entries appear under <strong>Drafts</strong> until approved.
+</p>
+
+<p class="body">
+  To publish a draft:
+</p>
+
+<ul class="list-disc pl-6 body">
+  <li>Go to the <strong>Drafts</strong> tab</li>
+  <li>Click the <MoreIcon className="icon-inline-text" /> <strong>three dots icon</strong> next to the institution</li>
+  <li>Select <ApproveIcon className="icon-inline-text" /> <strong>Approve</strong> from the dropdown menu</li>
+</ul>
+
+<p class="body mt-2">
+  Once approved, the institution moves to the <strong>Approved</strong> tab and becomes visible to other users.
+</p>
 
   ### 3. Adding an Institution
 
@@ -100,8 +117,6 @@ import { useColorMode } from '@docusaurus/theme-common';
       style={{ borderRadius: '0.5rem', boxShadow: '0 0 10px rgba(0,0,0,0.05)', maxWidth: '100%', marginTop: '1rem' }}
     />
   </div>
-
-  <!-- 📹 Video: /videos/institution.mov -->
 
   ### 4. Engagement Score
 

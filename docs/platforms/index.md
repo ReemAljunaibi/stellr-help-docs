@@ -5,6 +5,9 @@ sidebar_label: Platforms
 ---
 
 import { useColorMode } from '@docusaurus/theme-common';
+import EditIcon from '@site/static/icons/edit-light.svg';
+import ApproveIcon from '@site/static/icons/approve-light.svg';
+import CancelIcon from '@site/static/icons/cancel-light.svg';
 
 <div class="p-6 bg-white rounded-lg shadow-sm space-y-6">
 
@@ -15,52 +18,36 @@ import { useColorMode } from '@docusaurus/theme-common';
   </p>
 
   <p class="body text-gray-dark mt-2">
-    Examples include initiatives like <em>Formula 1</em>, <em>Expo 2020</em>, or <em>Davos</em>. Platforms help unify efforts and visualize cross-departmental work.
+    Examples include initiatives like
+    <span class="platform-tag">Formula 1</span>
+    <span class="platform-tag">Expo 2020</span>
+    <span class="platform-tag">Davos</span>. Platforms help unify efforts and visualize cross-departmental work.
   </p>
-
-  <div style={{ textAlign: 'center' }}>
-    <img
-      src="/img/platform-tag-example.png"
-      alt="Platform tag with example initiatives"
-      style={{
-        borderRadius: '0.5rem',
-        maxWidth: '100%',
-        marginTop: '1rem'
-      }}
-    />
-  </div>
-  <!-- 📸 Screenshot: /img/platform-tag-example.png -->
 
   ### 1. What You Can Do
 
-<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
-
-  <div class="flex items-center space-x-3">
-    <img src={`/icons/platforms-${useColorMode().colorMode}.svg`} class="inline-icon" alt="Platform icon" />
-    <span class="body"><strong>Create a Platform</strong>: Group events under a shared purpose or theme.</span>
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
+    <div class="flex items-center space-x-3">
+      <img src={`/icons/platforms-${useColorMode().colorMode}.svg`} class="inline-icon" alt="Platform icon" />
+      <span class="body"><strong>Create a Platform</strong>: Group events under a shared purpose or theme.</span>
+    </div>
+    <div class="flex items-center space-x-3">
+      <img src={`/icons/edit-${useColorMode().colorMode}.svg`} class="inline-icon" alt="Edit icon" />
+      <span class="body"><strong>Edit Platform</strong>: Update name, description, or access level.</span>
+    </div>
+    <div class="flex items-center space-x-3">
+      <img src={`/icons/approve-${useColorMode().colorMode}.svg`} class="inline-icon" alt="Approve icon" />
+      <span class="body"><strong>Approve Drafts</strong>: Admins can review and approve new platform submissions.</span>
+    </div>
+    <div class="flex items-center space-x-3">
+      <img src={`/icons/tasks-${useColorMode().colorMode}.svg`} class="inline-icon" alt="Tasks icon" />
+      <span class="body"><strong>Manage Tasks</strong>: Assign and track tasks linked to the platform.</span>
+    </div>
+    <div class="flex items-center space-x-3">
+      <img src={`/icons/calendar-${useColorMode().colorMode}.svg`} class="inline-icon" alt="Calendar icon" />
+      <span class="body"><strong>View in Calendar</strong>: Tasks linked to a platform appear in the dashboard calendar.</span>
+    </div>
   </div>
-
-  <div class="flex items-center space-x-3">
-    <img src={`/icons/edit-${useColorMode().colorMode}.svg`} class="inline-icon" alt="Edit icon" />
-    <span class="body"><strong>Edit Platform</strong>: Update name, description, or access level.</span>
-  </div>
-
-  <div class="flex items-center space-x-3">
-    <img src={`/icons/approve-${useColorMode().colorMode}.svg`} class="inline-icon" alt="Approve icon" />
-    <span class="body"><strong>Approve Drafts</strong>: Admins can review and approve new platform submissions.</span>
-  </div>
-
-  <div class="flex items-center space-x-3">
-    <img src={`/icons/tasks-${useColorMode().colorMode}.svg`} class="inline-icon" alt="Tasks icon" />
-    <span class="body"><strong>Manage Tasks</strong>: Assign and track tasks linked to the platform.</span>
-  </div>
-
-  <div class="flex items-center space-x-3">
-    <img src={`/icons/calendar-${useColorMode().colorMode}.svg`} class="inline-icon" alt="Calendar icon" />
-    <span class="body"><strong>View in Calendar</strong>: Tasks linked to a platform appear in the dashboard calendar.</span>
-  </div>
-
-</div>
 
   ### 2. Creating a Platform
 
@@ -83,37 +70,17 @@ import { useColorMode } from '@docusaurus/theme-common';
     <li>Only Admins can approve and publish the platform to make it visible across the organization.</li>
   </ol>
 
+  <div style={{ textAlign: 'center' }}>
+    <img src="/img/platform-form-empty.png" alt="Empty platform creation form" style={{ borderRadius: '0.5rem', boxShadow: '0 0 10px rgba(0,0,0,0.05)', maxWidth: '100%', marginTop: '1rem' }} />
+  </div>
+
+  <div style={{ textAlign: 'center' }}>
+    <img src="/img/platform-form-filled.png" alt="Filled platform creation form" style={{ borderRadius: '0.5rem', boxShadow: '0 0 10px rgba(0,0,0,0.05)', maxWidth: '100%', marginTop: '1rem' }} />
+  </div>
+
   <div class="mt-4 text-sm bg-gray-light p-4 rounded text-gray-dark">
     🔐 Want to learn how Access Levels work? See the <a href="/docs/access-permissions/access-permissions" class="text-accent-secondary underline">Access & Permissions</a> page.
   </div>
-
-  <div style={{ textAlign: 'center' }}>
-    <img
-      src="/img/platform-form-empty.png"
-      alt="Empty platform creation form"
-      style={{
-        borderRadius: '0.5rem',
-        boxShadow: '0 0 10px rgba(0,0,0,0.05)',
-        maxWidth: '100%',
-        marginTop: '1rem'
-      }}
-    />
-  </div>
-  <!-- 📸 Screenshot: /img/platform-form-empty.png -->
-
-  <div style={{ textAlign: 'center' }}>
-    <img
-      src="/img/platform-form-filled.png"
-      alt="Filled platform creation form"
-      style={{
-        borderRadius: '0.5rem',
-        boxShadow: '0 0 10px rgba(0,0,0,0.05)',
-        maxWidth: '100%',
-        marginTop: '1rem'
-      }}
-    />
-  </div>
-  <!-- 📸 Screenshot: /img/platform-form-filled.png -->
 
   ### 3. Drafts vs Approved Platforms
 
@@ -122,38 +89,19 @@ import { useColorMode } from '@docusaurus/theme-common';
   </p>
 
   <div style={{ textAlign: 'center' }}>
-    <img
-      src="/img/platform-tabbar-drafts-approved.png"
-      alt="Drafts and approved platform tabs"
-      style={{
-        borderRadius: '0.5rem',
-        boxShadow: '0 0 10px rgba(0,0,0,0.05)',
-        maxWidth: '100%',
-        marginTop: '1rem'
-      }}
-    />
+    <img src="/img/platform-tabbar-drafts-approved.png" alt="Drafts and approved platform tabs" style={{ borderRadius: '0.5rem', boxShadow: '0 0 10px rgba(0,0,0,0.05)', maxWidth: '100%', marginTop: '1rem' }} />
   </div>
-  <!-- 📸 Screenshot: /img/platform-tabbar-drafts-approved.png -->
 
   ### 4. Editing a Platform
 
   <p class="body">
-    To edit a platform, click the <strong>✏️ pen icon</strong> next to its name. Once you've made changes, click <strong>✔ Save</strong> or <strong>✖ Cancel</strong>.
+    To edit a platform, click the <EditIcon className="icon-inline-text" /> <strong>pen icon</strong> next to its name.
+    Once you've made changes, click <ApproveIcon className="icon-inline-text" /> <strong>Save</strong> or <CancelIcon className="icon-inline-text" /> <strong>Cancel</strong>.
   </p>
 
   <div style={{ textAlign: 'center' }}>
-    <img
-      src="/img/platform-edit-mode.png"
-      alt="Editing a platform"
-      style={{
-        borderRadius: '0.5rem',
-        boxShadow: '0 0 10px rgba(0,0,0,0.05)',
-        maxWidth: '100%',
-        marginTop: '1rem'
-      }}
-    />
+    <img src="/img/platform-edit-mode.png" alt="Editing a platform" style={{ borderRadius: '0.5rem', boxShadow: '0 0 10px rgba(0,0,0,0.05)', maxWidth: '100%', marginTop: '1rem' }} />
   </div>
-  <!-- 📸 Screenshot: /img/platform-edit-mode.png -->
 
   ### 5. Platform Overview Page
 
@@ -168,18 +116,8 @@ import { useColorMode } from '@docusaurus/theme-common';
   </ul>
 
   <div style={{ textAlign: 'center' }}>
-    <img
-      src="/img/platform-overview-page.png"
-      alt="Platform overview page"
-      style={{
-        borderRadius: '0.5rem',
-        boxShadow: '0 0 10px rgba(0,0,0,0.05)',
-        maxWidth: '100%',
-        marginTop: '1rem'
-      }}
-    />
+    <img src="/img/platform-overview-page.png" alt="Platform overview page" style={{ borderRadius: '0.5rem', boxShadow: '0 0 10px rgba(0,0,0,0.05)', maxWidth: '100%', marginTop: '1rem' }} />
   </div>
-  <!-- 📸 Screenshot: /img/platform-overview-page.png -->
 
   <div class="mt-4 text-sm bg-gray-light p-4 rounded text-gray-dark">
     📌 Tasks can be updated directly from this page. For more info, visit the <a href="/docs/tasks/index" class="text-accent-secondary underline">Tasks Section</a>.
