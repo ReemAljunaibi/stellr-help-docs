@@ -51,28 +51,12 @@ import { useColorMode } from '@docusaurus/theme-common';
     <li><strong>Section Break:</strong> Visually separate survey sections with labels.</li>
   </ul>
 
-  <div style={{ textAlign: 'center' }}>
-    <img
-      src="/img/survey-input-types.png"
-      alt="Survey Input Types"
-      style={{
-        borderRadius: '0.5rem',
-        boxShadow: '0 0 10px rgba(0,0,0,0.05)',
-        maxWidth: '100%',
-        marginTop: '1rem'
-      }}
-    />
-  </div>
-
   ### 3. Preview & Logic
 
   <p class="body">
     Once your survey is built, use the <strong>Preview</strong> toggle to view how guests will see the form on desktop or mobile.
   </p>
 
-  <p class="body mt-2">
-    🚧 <strong>Coming soon:</strong> Conditional logic for branching questions based on earlier responses.
-  </p>
 
   ### 4. Attach to Email Template
 
