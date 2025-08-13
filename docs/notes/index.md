@@ -5,6 +5,10 @@ sidebar_label: Notes
 ---
 
 import { useColorMode } from '@docusaurus/theme-common';
+import EditIcon from '@site/static/icons/edit-light.svg';
+import ApproveIcon from '@site/static/icons/approve-light.svg';
+import CancelIcon from '@site/static/icons/cancel-light.svg';
+import BinIcon from '@site/static/icons/bin-light.svg';
 
 <div class="p-6 bg-white rounded-lg shadow-sm space-y-6">
 
@@ -57,9 +61,10 @@ import { useColorMode } from '@docusaurus/theme-common';
   </p>
 
   <ul class="list-disc pl-6 body">
-    <li>Click the <strong>✏️ pen icon</strong> to enter edit mode</li>
-    <li>Click <strong>✔ Save</strong> to confirm your changes</li>
-    <li>Click the <strong>🗑️ bin icon</strong> to delete a note</li>
+    <li>Click the <EditIcon className="icon-inline-text" /> <strong>Edit icon</strong> to enter edit mode</li>
+    <li>Click <ApproveIcon className="icon-inline-text" /> <strong>Save icon</strong> to confirm your changes</li>
+    <li>Click <CancelIcon className="icon-inline-text" /> <strong>Cancel icon</strong> to discard changes</li>
+    <li>Click <BinIcon className="icon-inline-text" /> <strong>Delete icon</strong> to remove the note</li>
   </ul>
 
   <div style={{ textAlign: 'center' }}>
