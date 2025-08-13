@@ -5,60 +5,35 @@ sidebar_label: Access & Permissions
 ---
 
 import { useColorMode } from '@docusaurus/theme-common';
+import MoreIcon from '@site/static/icons/more-light.svg';
 
 <div class="p-6 bg-white rounded-lg shadow-sm space-y-6">
 
   <h2 class="h2 text-accent-secondary">Understanding Access & Permissions</h2>
 
   <p class="body text-gray-dark">
-    Stellr provides layered access control by combining <strong>User Roles</strong> and <strong>Visibility Settings</strong> (Public, Private, or Group-based). This ensures that sensitive data is shared only with the right people, at the right time.
+    Stellr uses a simple, layered permission system to help you control what team members can see and do. There are three main layers: <strong>User Roles</strong>, <strong>Content Access</strong>, and <strong>Group Permissions</strong>.
   </p>
 
   ### 1. User Roles
 
   <p class="body">
-    Each user is assigned one of the following roles:
+    Every user is either an:
   </p>
 
   <ul class="list-disc pl-6 body">
-    <li><strong>Admin:</strong> Full access. Can invite users, approve drafts, manage groups, and edit all content.</li>
-    <li><strong>Member:</strong> Can create and edit their own content but cannot approve or manage others.</li>
-    <li><strong>Viewer:</strong> Read-only access to shared or public content. Cannot create or edit anything.</li>
+    <li><strong>Admin:</strong> Full access. Can manage users, assign groups, edit everything, and approve content.</li>
+    <li><strong>Member:</strong> Can only see or edit content they’ve been added to through group access.</li>
   </ul>
-
-  <div style={{ textAlign: 'center' }}>
-    <img
-      src="/img/access-roles-permissions.png"
-      alt="User Roles and Permissions Table"
-      style={{
-        borderRadius: '0.5rem',
-        boxShadow: '0 0 10px rgba(0,0,0,0.05)',
-        maxWidth: '100%',
-        marginTop: '1rem'
-      }}
-    />
-  </div>
-
-  ### 2. Access Levels (Visibility)
 
   <p class="body">
-    When creating content — like platforms, events, notes, or tasks — users can define who can access it:
+    You choose the user’s role when inviting them to the workspace, and you can change it anytime later from the Users page. Just click the <MoreIcon className="icon-inline-text" /> <strong>three dots</strong> next to their name.
   </p>
-
-  <ul class="list-disc pl-6 body">
-    <li><strong>Public:</strong> Visible to all users in the workspace</li>
-    <li><strong>Private:</strong> Only visible to the person who created it</li>
-    <li><strong>By Group:</strong> Only visible to selected groups of users</li>
-  </ul>
-
-  <div class="mt-4 text-sm bg-gray-light p-4 rounded text-gray-dark">
-    🔐 <strong>Note:</strong> This visibility is separate from user roles. Even Admins cannot view Private or Group-specific content unless they are part of the selected group.
-  </div>
 
   <div style={{ textAlign: 'center' }}>
     <img
-      src="/img/access-level-selector.png"
-      alt="Access Level Selector in Form"
+      src="/img/user-details-actions.png"
+      alt="Changing a user's role from the 3-dot menu"
       style={{
         borderRadius: '0.5rem',
         boxShadow: '0 0 10px rgba(0,0,0,0.05)',
@@ -68,25 +43,21 @@ import { useColorMode } from '@docusaurus/theme-common';
     />
   </div>
 
-  ### 3. How Roles & Access Levels Work Together
+  ### 2. Content Access (Public or Restricted)
 
   <p class="body">
-    Permissions are layered in Stellr:
+    When creating content — like <strong>individuals, institutions, events, or platforms</strong> — you’ll choose who can access it:
   </p>
 
   <ul class="list-disc pl-6 body">
-    <li><strong>Role:</strong> Defines what actions you can perform (create, edit, approve)</li>
-    <li><strong>Access Level:</strong> Defines who can see what you’ve created</li>
+    <li><strong>Public:</strong> Shared with everyone in your workspace.</li>
+    <li><strong>Restricted:</strong> Shared only with specific groups of users.</li>
   </ul>
-
-  <p class="body mt-2">
-    For example, a <strong>Member</strong> can create an event visible only to the <code>RJJ Group</code>. An <strong>Admin</strong> not in that group won’t see it unless added to the same group.
-  </p>
 
   <div style={{ textAlign: 'center' }}>
     <img
-      src="/img/access-role-combo-example.png"
-      alt="Roles and Access Working Together"
+      src="/img/individual-access-settings--filled.png"
+      alt="Restricted access setting with group selector"
       style={{
         borderRadius: '0.5rem',
         boxShadow: '0 0 10px rgba(0,0,0,0.05)',
@@ -96,22 +67,92 @@ import { useColorMode } from '@docusaurus/theme-common';
     />
   </div>
 
-  ### 4. Where Permissions Apply
+  <p class="body">
+    If you choose <strong>Restricted</strong>, you’ll be asked to select a group. If no group is selected, the content will only be visible to Admins.
+  </p>
+
+  ### 3. Group Access (Read or Write)
+
+  <p class="body">
+    You control visibility and permissions by adding people to groups. Each group member can be set to:
+  </p>
 
   <ul class="list-disc pl-6 body">
-    <li><strong>Platforms:</strong> Access control is applied when approving and viewing platforms.</li>
-    <li><strong>Events:</strong> Visibility set at creation — link to <a href="/events" class="text-accent-secondary underline">Events</a>.</li>
-    <li><strong>Institutions & Individuals:</strong> Managed through <a href="/institutions" class="text-accent-secondary underline">Institutions</a> and <a href="/individuals" class="text-accent-secondary underline">Individuals</a>.</li>
-    <li><strong>Notes:</strong> Visibility set using group mentions — see <a href="/notes" class="text-accent-secondary underline">Notes</a>.</li>
-    <li><strong>Tasks:</strong> Visibility inherits from their parent (platform, event, or individual).</li>
+    <li><strong>Read:</strong> Can view content shared with the group.</li>
+    <li><strong>Write:</strong> Can create or edit content for that group.</li>
   </ul>
 
-  ### 5. Tips for Admins
+  <div style={{ textAlign: 'center' }}>
+    <img
+      src="/img/users-group-access.png"
+      alt="Adding a user to a group with read/write access"
+      style={{
+        borderRadius: '0.5rem',
+        boxShadow: '0 0 10px rgba(0,0,0,0.05)',
+        maxWidth: '100%',
+        marginTop: '1rem'
+      }}
+    />
+  </div>
+
+  <p class="body">
+    You can manage this anytime from the <strong>Users</strong> page by clicking the <MoreIcon className="icon-inline-text" /> <strong>three dots</strong> next to a person’s name and selecting “Manage group access.”
+  </p>
+
+  ### 4. Real-Life Examples
+
+  <p class="body">
+    Here’s how it all works in action:
+  </p>
+
+  <table class="table-auto w-full text-sm mt-4">
+    <thead>
+      <tr class="bg-gray-light">
+        <th class="p-2 text-left">User</th>
+        <th class="p-2 text-left">Role</th>
+        <th class="p-2 text-left">Group</th>
+        <th class="p-2 text-left">Access</th>
+        <th class="p-2 text-left">Permission</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="p-2">Fatima</td>
+        <td class="p-2">Admin</td>
+        <td class="p-2">Media</td>
+        <td class="p-2">All content</td>
+        <td class="p-2">Write</td>
+      </tr>
+      <tr class="bg-gray-100">
+        <td class="p-2">Khaled</td>
+        <td class="p-2">Member</td>
+        <td class="p-2">Media</td>
+        <td class="p-2">Only Media content</td>
+        <td class="p-2">Read</td>
+      </tr>
+      <tr>
+        <td class="p-2">Salma</td>
+        <td class="p-2">Member</td>
+        <td class="p-2">Finance</td>
+        <td class="p-2">Only Finance content</td>
+        <td class="p-2">Write</td>
+      </tr>
+      <tr class="bg-gray-100">
+        <td class="p-2">Omar</td>
+        <td class="p-2">Member</td>
+        <td class="p-2">–</td>
+        <td class="p-2">Public content only</td>
+        <td class="p-2">–</td>
+      </tr>
+    </tbody>
+  </table>
+
+  ### 5. Admin Tips
 
   <ul class="list-disc pl-6 body">
-    <li>Use <strong>Group-based access</strong> to simplify visibility across modules</li>
-    <li>Periodically audit <a href="/users" class="text-accent-secondary underline">Users</a> and <a href="/groups" class="text-accent-secondary underline">Groups</a></li>
-    <li>Encourage users to check their <a href="/profile" class="text-accent-secondary underline">Profile</a> for group memberships</li>
+    <li>Use <strong>groups</strong> to simplify visibility control.</li>
+    <li>Assign people to the right groups with the right permissions.</li>
+    <li>Clean up unused groups and review access regularly from the <a href="/users" class="text-accent-secondary underline">Users</a> page.</li>
   </ul>
 
   ### 6. Related Pages
@@ -119,7 +160,6 @@ import { useColorMode } from '@docusaurus/theme-common';
   <ul class="list-disc pl-6 body">
     <li><a href="/users" class="text-accent-secondary underline">Users</a></li>
     <li><a href="/groups" class="text-accent-secondary underline">Groups</a></li>
-    <li><a href="/notes" class="text-accent-secondary underline">Notes</a></li>
     <li><a href="/profile" class="text-accent-secondary underline">Profile</a></li>
   </ul>
 
