@@ -158,3 +158,7 @@ import ApproveIcon from '@site/static/icons/approve-light.svg';
   </ul>
 
 </div>
+
+import HelpCenterCTA from '@site/src/components/HelpCenterCTA';
+
+<HelpCenterCTA />

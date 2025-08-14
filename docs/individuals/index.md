@@ -152,3 +152,7 @@ import { useColorMode } from '@docusaurus/theme-common';
   </ul>
 
 </div>
+
+import HelpCenterCTA from '@site/src/components/HelpCenterCTA';
+
+<HelpCenterCTA />

@@ -60,3 +60,7 @@ sidebar_label: Getting Started
   </p>
 
 </div>
+
+import HelpCenterCTA from '@site/src/components/HelpCenterCTA';
+
+<HelpCenterCTA />

@@ -99,9 +99,9 @@ const sidebars = {
     },
     {
       type: 'link',
-      label: 'Contact',
-      href: 'mailto:support@stellr.ae',
-      customProps: { icon: 'contact' },
+      label: 'Support',
+      href: 'https://stellr.atlassian.net/servicedesk/customer/portal/2/group/1/create/2',
+      customProps: { icon: 'help' },
     },
   ],
 };

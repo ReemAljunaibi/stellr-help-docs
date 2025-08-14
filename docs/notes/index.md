@@ -81,3 +81,7 @@ import BinIcon from '@site/static/icons/bin-light.svg';
   </div>
 
 </div>
+
+import HelpCenterCTA from '@site/src/components/HelpCenterCTA';
+
+<HelpCenterCTA />

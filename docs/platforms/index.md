@@ -132,3 +132,7 @@ import CancelIcon from '@site/static/icons/cancel-light.svg';
   </ul>
 
 </div>
+
+import HelpCenterCTA from '@site/src/components/HelpCenterCTA';
+
+<HelpCenterCTA />

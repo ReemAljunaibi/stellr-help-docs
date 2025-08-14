@@ -164,3 +164,7 @@ import MoreIcon from '@site/static/icons/more-light.svg';
   </ul>
 
 </div>
+
+import HelpCenterCTA from '@site/src/components/HelpCenterCTA';
+
+<HelpCenterCTA />
