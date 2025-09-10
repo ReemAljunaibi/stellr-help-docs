@@ -43,7 +43,7 @@ sidebar_label: Getting Started
 
   <p class="body">
     If your organization has enabled Microsoft Single Sign-On (SSO), you can skip the password creation step and log in directly using your Microsoft credentials.
-    For more details, see the <a href="/docs/access-permissions" class="text-accent-secondary underline">Access & Permissions</a> page.
+    For more details, see the <a href="/docs/access-permissions/access-permissions" class="text-accent-secondary underline">Access & Permissions</a> page.
   </p>
 
   ### 4. Log In to Stellr
@@ -57,7 +57,7 @@ sidebar_label: Getting Started
   </p>
 
   ---
-  
+
   ## ⚡ Quick Start Overview
 
   <p class="body">
@@ -65,11 +65,13 @@ sidebar_label: Getting Started
   </p>
 
   <ul class="list-disc ml-6 space-y-2">
-    <li><strong>Centralize your Partner Network:</strong> All individuals and institutions in one place, easy to find and up to date. See <a href="/docs/partners">Partners</a>.</li>
-    <li><strong>Plan & Manage Events:</strong> Add guests, assign tasks, and collaborate across your team. See <a href="/docs/events">Events</a>.</li>
-    <li><strong>Track Internal Notes:</strong> Keep records of updates and decisions as they happen. See <a href="/docs/notes">Notes</a>.</li>
+    <li><strong>Centralize your Partner Network:</strong> All individuals and institutions in one place, easy to find and up to date. See <a href="/docs/individuals">Individuals</a> and <a href="/docs/institutions">Institutions</a>.</li>
+    <li><strong>Plan & Manage Events:</strong> Add guests, assign tasks, and collaborate across your team. See <a href="/docs/events">Events</a> and <a href="/docs/platforms">Platforms</a>.</li>
+    <li><strong>Track Internal Notes:</strong> Keep records of updates and decisions. See <a href="/docs/notes">Notes</a>.</li>
+    <li><strong>Assign & Track Tasks:</strong> Coordinate work across teams. See <a href="/docs/tasks">Tasks</a>.</li>
     <li><strong>Send Surveys:</strong> Collect structured data from partners. See <a href="/docs/surveys">Surveys</a>.</li>
-    <li><strong>Get Help Anytime:</strong> Use the <a href="/docs/support">Help Sidebar</a> to access this guide or submit a support ticket.</li>
+    <li><strong>Use Email Templates:</strong> Standardize your communication. See <a href="/docs/email-templates">Email Templates</a>.</li>
+    <li><strong>Get Help Anytime:</strong> Use the help icon to access this guide or <a href="https://stellr.atlassian.net/servicedesk/customer/portal/2/group/1/create/2" target="_blank">submit a support ticket</a>.</li>
   </ul>
 
   ---
@@ -88,10 +90,11 @@ sidebar_label: Getting Started
       <tr><td class="pr-4 py-2"><strong>Platform</strong></td><td>Group of events like Investopia or World Government Summit. See <a href="/docs/platforms">Platforms</a>.</td></tr>
       <tr><td class="pr-4 py-2"><strong>Event</strong></td><td>Specific session like a Roundtable or Seminar. See <a href="/docs/events">Events</a>.</td></tr>
       <tr><td class="pr-4 py-2"><strong>Institution</strong></td><td>Organizations like WHO, World Bank. See <a href="/docs/institutions">Institutions</a>.</td></tr>
-      <tr><td class="pr-4 py-2"><strong>Individual</strong></td><td>People linked to institutions. See <a href="/docs/partners">Partners</a>.</td></tr>
-      <tr><td class="pr-4 py-2"><strong>Group</strong></td><td>Admin-defined roles like Media Team, Leadership Group, etc.</td></tr>
-      <tr><td class="pr-4 py-2"><strong>Draft vs Approved</strong></td><td>Drafts are only visible to creators/admins. Approved = published to users.</td></tr>
-      <tr><td class="pr-4 py-2"><strong>Public vs Restricted Access</strong></td><td>Public = all users, Restricted = only assigned groups can view.</td></tr>
+      <tr><td class="pr-4 py-2"><strong>Individual</strong></td><td>People in your network. See <a href="/docs/individuals">Individuals</a>.</td></tr>
+      <tr><td class="pr-4 py-2"><strong>Group</strong></td><td>Admin-defined user access groups. See <a href="/docs/groups">Groups</a>.</td></tr>
+      <tr><td class="pr-4 py-2"><strong>Task</strong></td><td>Assigned action linked to events or notes. See <a href="/docs/tasks">Tasks</a>.</td></tr>
+      <tr><td class="pr-4 py-2"><strong>Draft vs Approved</strong></td><td>Drafts = only you + admins see. Approved = visible to others. See <a href="/docs/access-permissions/access-permissions">Access & Permissions</a>.</td></tr>
+      <tr><td class="pr-4 py-2"><strong>Access Control</strong></td><td>Public = everyone. Restricted = only assigned groups. See <a href="/docs/access-permissions/access-permissions">Access & Permissions</a>.</td></tr>
     </tbody>
   </table>
   </div>
